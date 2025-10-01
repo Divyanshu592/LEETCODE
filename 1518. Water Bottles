@@ -40,12 +40,6 @@ Solution is:
 
 class Solution:
     def numWaterBottles(self, a: int, b: int) -> int:
-        # initial= int(a / b)
-        # left=a-(b*initial)
-        # ans1=initial+left
-        # ans1=int(ans1/b)
-        # ans=initial+ans1    21  3
-        # initial=int(a/b)   #  a/b=7
         if(a<b):
             return a
         count=a
